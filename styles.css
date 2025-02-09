@@ -60,6 +60,8 @@ body {
 
 .info-section {
     text-align: center;
+    padding: 32px;
+    margin-bottom: 80px;
 }
 
 .info-section h2 {
@@ -76,6 +78,22 @@ body {
 
 .info {
     max-width: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote h3 {
+    text-align: end;
+    margin-right: 64px;
 }
 
 .footer {
