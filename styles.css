@@ -6,6 +6,15 @@ body {
     font-family: 'Roboto', 'sans';
 }
 
+button {
+    color: #F9FAF8;
+    font-weight: bolder;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
 .header, .intro, .footer {
     background-color: #1F2937;
     color: white;
@@ -32,6 +41,7 @@ body {
 
 .intro {
     display: flex;
+    justify-content: center;
     padding: 100px;
     color: #F9FAF8;
     gap: 48px;
@@ -47,15 +57,6 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     margin: 12px 0px;
-}
-
-.body button {
-    color: #F9FAF8;
-    font-weight: bolder;
-    background-color: #3882F6;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 32px;
 }
 
 .info-section {
@@ -94,6 +95,25 @@ body {
 .quote h3 {
     text-align: end;
     margin-right: 64px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 100px;
+    margin: 128px;
+    border-radius: 12px;
+}
+
+.call-to-action h2, p {
+    margin: 5px;
+}
+
+.call-to-action button {
+    border: solid #F9FAF8 2px;
 }
 
 .footer {
