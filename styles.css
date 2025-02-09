@@ -18,10 +18,44 @@ body {
     padding: 0px 100px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .header ul {
     list-style: none;
     display: flex;
     gap: 16px;
+    color: #E5E7EB;
+}
+
+.intro {
+    display: flex;
+    padding: 100px;
+    color: #F9FAF8;
+    gap: 48px;
+}
+
+.body h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.body p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 12px 0px;
+}
+
+.body button {
+    color: #F9FAF8;
+    font-weight: bolder;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
 }
 
 .footer {
